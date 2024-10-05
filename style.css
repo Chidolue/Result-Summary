@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+}
+
+.first {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border: 2px solid transparent;
+    text-align: center;
+    width: 100vw;
+    height: 40vh;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.first h3 {
+    margin: 1.5rem 0 1rem 0;
+    color: hsl(241, 100%, 89%);
+}
+
+#grey{
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(241, 100%, 89%);
+}
+
+.first div {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.first div span{
+    border: 2px solid transparent;
+}
+
+.first h2{
+    margin: 0.5rem 0 0.4rem 0;
+}
+
+.first p {
+    font-size: 14px;
+    color: hsl(241, 100%, 89%);
+    margin: 0 auto;
+    width: 60%;
+}
+
+.second{
+    margin: 2.5vh auto;
+    width: 80%;
+    height: 55vh;
+}
+
+.second h3{
+    color:hsl(224, 30%, 27%);
+}
+
+#red {
+    color: hsl(0, 100%, 67%);
+}
+
+#yellow{
+    color: hsl(39, 100%, 56%);
+}
+
+#green{
+    color: hsl(166, 100%, 37%);
+}
+
+#blue{
+    color: hsl(234, 85%, 45%);
+}
+
+.red {
+    background-color: hsl(0, 100%, 95%);
+}
+
+.red span {
+    display: flex;
+}
+
+.yellow{
+    background-color: hsl(60, 100%, 85%);
+}
+
+.yellow span {
+    display: flex;
+}
+
+.green {
+    background-color: hsl(120, 100%, 90%);
+}
+
+.green span {
+    display: flex;
+}
+
+.blue {
+    background-color: hsl(240, 100%, 95%);
+}
+
+.blue span{
+    display: flex;
+}
+
+.each {
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    border-radius: 5px;
+}
+
+button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    margin-top: 2rem;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius: 20px;
+}
+
+.blu{
+    color: hsl(224, 30%, 27%);
+    font-weight: 600;
+}
