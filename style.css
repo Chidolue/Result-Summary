@@ -136,3 +136,67 @@ button {
     color: hsl(224, 30%, 27%);
     font-weight: 600;
 }
+
+@media screen and (min-width: 567px) {
+    .whole {
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        justify-content: center;
+    }
+
+    .first {
+        background-color: black;
+        height: 450px;
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: -10px 10px 15px hsl(222, 100%, 88%);
+    }
+
+    .each{
+        margin-top: 1.5rem;
+    }
+
+    .first div{
+        height: 150px;
+        width: 150px;
+        padding-top: 1rem;
+    }
+
+    .first h1{
+        font-size: 2.5rem;
+    }
+
+    .first h2{
+        font-size: 1.6rem;
+        margin-top: 1.5rem;
+    }
+
+    .first h3{
+        font-size: 1.3rem;
+        margin: 2rem 0 1.5rem 0;
+    }
+
+    .first p {
+        font-size: 1rem;
+        margin-top: 1.1rem;
+    }
+    .second{
+        margin: 0 0 0 0;
+        padding-left: 2.5rem;;
+        padding-top: 2rem;
+        padding-right: 2rem;
+        height: 450px;
+        width: 330px;
+        box-shadow: 10px 10px 15px hsl(222, 100%, 88%);
+    }
+
+    button{
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: hsl(234, 85%, 45%);
+    }
+
+}
